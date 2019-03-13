@@ -26,7 +26,7 @@ public class U4L01DrawingGraphics extends JFrame {
 	        JPanel titlePanel = new JPanel(); 
 	        titlePanel.setBackground(Color.BLACK);
 	        add(titlePanel, BorderLayout.PAGE_START);
-	        Font titleFont = new Font("Fish&Chips", Font.BOLD, 32);
+	        Font titleFont = new Font(Font.SANS_SERIF, Font.BOLD, 32);
 	        JLabel titleLabel = new JLabel("Drawing Examples");
 	        titleLabel.setBackground(Color.BLACK);
 	        titleLabel.setOpaque(true);
